@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Меню</title>
+</head>
+<body>
+    <style>
+        .menu {
+            background:rgb(141, 255, 217);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: fixed;
+            width: 100%;
+            font-size: 25px;
+            padding: 15px;
+            border-bottom: 2px solid black;
+        }
+
+        .menu-right {
+            position: absolute;
+            right: 50px;
+        }
+
+        .menu-left {
+            font-weight: bold;
+        }
+
+        .menu-right a {
+            color:rgb(187, 62, 245);
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .menu-right a:hover {
+            color:black;
+        }
+
+        body {
+            margin: 0;
+            background-image: url(https://ae01.alicdn.com/kf/HTB1_2ainx1YBuNjy1zcq6zNcXXaO/HUAYI.jpg_q50.jpg);
+            background-size: cover;
+
+
+        }
+        
+        .email {
+            display: inline-block;
+            margin-top: 80px;
+            font-size: 25px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .search {
+            font-size: 25px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            width: fit-content;
+            margin: auto;
+        }
+
+        .banner {
+            width: 100%;
+            height: 400px;
+            background-image: url(https://i.pinimg.com/originals/17/00/c1/1700c1dde87ff115b4afe7069b25f258.jpg);
+        }
+
+        .banner-title {
+            margin: auto;
+            position: relative;
+            width: fit-content;
+            display:inline-block;
+            margin-top: 200px;
+            font-size: 50px;
+            font-weight: 900;
+        }
+    </style>
+    <div class="menu">
+        <span class="menu-left">Меню</span>
+        <span class="menu-right">
+                <a href="https://ya.ru">Яндекс</a>
+                <a href="index2.html">Собачки</a>
+                <a href="2220.jpg">Котик</a>
+                <a href="https://sites.google.com/view/karpovafirstsite">Хомячки</a>
+        </span>
+    </div>
+    
+    <div class="banner">
+        <div class="background"></div>
+        <div class="banner-title">Хомячки - супер</div>
+    </div>
+    
+    <div>
+        <form>
+            <div class="email">
+                    Введите почту:
+                    <input type="text" name="email">
+                    <input type="button" value="Подтвердить">
+            </div>
+           
+        </form>
+    </div>
+
+    <div>
+            <form action="https://yandex.ru/search/">
+                <div class="search">
+                        Введите запрос:
+                        <input type="text" name="text">
+                        <input type="submit" value="Найти">
+                </div>
+               
+            </form>
+        </div>
+</body>
+</html>
